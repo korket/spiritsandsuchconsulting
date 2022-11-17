@@ -1,11 +1,11 @@
-/* styles */
-
 body {
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("./images/repeatingbackground.jpg");
+    display: flex;
+    flex-direction: column;
 }
 
 li, a {
@@ -18,10 +18,18 @@ li, a {
 
 nav {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .links, .logo {
     padding: 1.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
 }
 
 .logo > a {
@@ -33,56 +41,11 @@ nav {
     font-size: 1.2rem;
 }
 
-
-
-
 /* main content */
 
 main {
     width: 100%;
 }
-
-.content-1-left {
-    max-width: 500px;
-}
-
-.content-1-left > button {
-    max-width: 200px;
-}
-
-.content-1-right > img {
-    max-width: 500px;
-}
-
-footer {
-    background-color: #f8a8ff;
-    width: 100%;
-}
-
-/* flexbox */ /* flexbox */ /* flexbox */ /* flexbox */ /* flexbox */
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-/* navigation bar */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.links {
-    display: flex;
-    gap: 2rem;
-}
-
-/* main content */
-
-
-/* content 1 */
 
 .content-1 {
     display: flex;
@@ -92,12 +55,14 @@ nav {
 }
 
 .content-1-left {
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .content-1-left > button {
+    max-width: 200px;
     display: flex;
     justify-content: center;
 }
@@ -107,3 +72,15 @@ nav {
     flex: 1;
 }
 
+.content-1-right > img {
+    max-width: 500px;
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: #f8a8ff;
+    width: 100%;
+}
