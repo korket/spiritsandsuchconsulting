@@ -67,6 +67,7 @@ main {
     max-width: 200px;
     display: flex;
     justify-content: center;
+    font-size: 1.2rem;
 }
 
 .content-1-right {
