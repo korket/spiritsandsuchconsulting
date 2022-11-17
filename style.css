@@ -4,15 +4,41 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./images/repeatingbackground.jpg");
 }
 
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* navigation bar */
+
 nav {
-    background-color: #f8a8ff;
     width: 100%;
 }
 
+.links, .logo {
+    padding: 1.5rem;
+}
+
+.logo > a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link > a {
+    font-size: 1.2rem;
+}
+
+
+
+
+/* main content */
+
 main {
-    background-color: #fbd5ff;
     width: 100%;
 }
 
@@ -21,9 +47,22 @@ footer {
     width: 100%;
 }
 
-/* flexbox */
+/* flexbox */ /* flexbox */ /* flexbox */ /* flexbox */ /* flexbox */
 
 body {
     display: flex;
     flex-direction: column;
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
 }
