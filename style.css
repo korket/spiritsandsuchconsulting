@@ -8,7 +8,8 @@ body {
     flex-direction: column;
 }
 
-li, a {
+li,
+a {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -23,7 +24,8 @@ nav {
     align-items: center;
 }
 
-.links, .logo {
+.links,
+.logo {
     padding: 2.5rem;
 }
 
@@ -32,12 +34,12 @@ nav {
     gap: 2rem;
 }
 
-.logo > a {
+.logo>a {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.link > a {
+.link>a {
     font-size: 1.2rem;
 }
 
@@ -63,7 +65,7 @@ main {
     align-items: center;
 }
 
-.content-1-left > button {
+.content-1-left>button {
     max-width: 200px;
     display: flex;
     justify-content: center;
@@ -75,7 +77,7 @@ main {
     flex: 1;
 }
 
-.content-1-right > img {
+.content-1-right>img {
     max-width: 500px;
     border: 5px solid #f8a8ff;
 }
@@ -101,6 +103,28 @@ main {
 }
 
 /* content 3 */
+
+.content-3 {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-3-quote {
+    display: flex;
+    font-size: 2rem;
+    max-width: 600px;
+}
+
+.content-3-name {
+    font-size: 1.5rem;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+/* content 4 */
 
 
 
